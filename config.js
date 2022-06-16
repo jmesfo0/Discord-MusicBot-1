@@ -7,7 +7,7 @@ module.exports = {
   port: 4200, //Port of the API and Dashboard
   scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   serverDeafen: true, //If you want bot to stay deafened
-  defaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
+  defaultVolume: 20, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
   supportServer: "https://discord.gg/STaq3UDbqQ", //Support Server Link
   Issues: "https://github.com/SudhanPlayz/Discord-MusicBot/issues", //Bug Report Link
   permissions: 277083450689, //Bot Inviting Permissions
