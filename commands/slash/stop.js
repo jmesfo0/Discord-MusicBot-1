@@ -2,7 +2,7 @@ const SlashCommand = require("../../lib/SlashCommand");
 const { MessageEmbed } = require("discord.js");
 
 const command = new SlashCommand()
-  .setName("leave")
+  .setName("stop")
   .setDescription(
     "Stops whatever the bot is playing and leaves the voice channel\n(This command will clear the queue)"
   )
